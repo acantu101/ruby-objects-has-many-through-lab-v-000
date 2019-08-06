@@ -16,7 +16,7 @@ class Appointment
   end
 
   def patient
-    @patient
+    Patient.name
   end
 
   def doctor
