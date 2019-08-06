@@ -16,11 +16,11 @@ class Appointment
   end
 
   def patient
-    patient.appointments = self
+    patient.appointment = self.patient
   end
 
   def doctor
-    doctor.appointment = self
+    doctor.appointment = self.doctor
   end
 
 
