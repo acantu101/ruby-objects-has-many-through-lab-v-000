@@ -20,7 +20,7 @@ class Appointment
   end
 
   def doctor
-    @doctor
+    Doctor.name
   end
 
 
