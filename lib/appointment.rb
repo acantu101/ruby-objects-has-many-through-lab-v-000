@@ -16,11 +16,11 @@ class Appointment
   end
 
   def patient
-    Patient.name = appointments.name
+    Patient.name = appointments.patient
   end
 
   def doctor
-    Doctor.name
+    Doctor.name = appointments.patient
   end
 
 
